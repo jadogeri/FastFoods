@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
+import React from 'react';
 import HeaderBottom from '../layouts/HeaderBottom';
 import $ from "jquery"
 import { WOW } from "wowjs"
@@ -17,21 +18,18 @@ const Home = () => {
 		window.swipebox()
 
 
-		// $(document).ready(function($) {
-		// 	$(".scroll").click(function(event){		
-		// 		event.preventDefault();
-		// 		$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
-		// 	});
-		// });
+		$(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
   
-		 new WOW({live:false})
-        // new WOW.WOW({
-        //     live: false, // Disable live updates
-        //   }).init();
-		let navoffeset=$(".header-bottom").offset().top;
+		new WOW().init();
+		var navoffeset=$(".header-bottom").offset().top;
 		console.log("value of offset ==== ", navoffeset)
 		$(window).scroll(function(){
-		 let scrollpos=$(window).scrollTop(); 
+		 var scrollpos=$(window).scrollTop(); 
 		 if(scrollpos >=navoffeset){
 		   $(".header-bottom").addClass("fixed");
 		 }else{
