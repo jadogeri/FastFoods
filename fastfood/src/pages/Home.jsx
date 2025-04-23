@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import React from 'react';
 import HeaderBottom from '../layouts/HeaderBottom';
 import $ from "jquery"
-import { WOW } from "wowjs"
+import WOW from 'wow.js';
 import Carousel from '../components/Carousel';
 
 const Home = () => {
@@ -41,13 +41,6 @@ const Home = () => {
 
   return (
     <>
- {/* <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
-      <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
-      <link href="assets/css/style4.css" rel="stylesheet" type="text/css" media="all" />
-      <link href="assets/css/animate.css" rel="stylesheet" type="text/css" media="all" />
-      <link href="assets/css/swipebox.css" rel="stylesheet" type="text/css" media="all" />
- */}
-
 
 <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
 

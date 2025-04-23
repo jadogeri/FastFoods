@@ -14,9 +14,6 @@ const ProjectRoutes = () => {
 
 	
 	<BrowserRouter >
-	{/* <NavBar />	 */}
-
-	{/* <AppBar/>	 */}
 		<Routes >				
 			<Route path="/" element={ <Home />} index /> 
 
