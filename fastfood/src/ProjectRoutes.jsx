@@ -18,13 +18,14 @@ const ProjectRoutes = () => {
 
 
 	
-	<BrowserRouter >
+	<BrowserRouter basename="fastfoods/fastfood" >
 		<Carousel/>
 		<Routes >				
 			<Route path="/" element={ <Home HeaderBottom={HeaderBottom}/>} index /> 
-			<Route path="/menu" element={ <Menu  HeaderBottom={HeaderBottom}/>} index /> 
-			<Route path="/event" element={ <Event HeaderBottom={HeaderBottom}/>} index /> 
+			<Route path="/menu" element={ <Menu  HeaderBottom={HeaderBottom}/>}  /> 
+			<Route path="/event" element={ <Event HeaderBottom={HeaderBottom}/>}  /> 
 			<Route path="*" element={<NoPage />} />
+			
 		</Routes>
 		<Footer/>
 	</BrowserRouter>
