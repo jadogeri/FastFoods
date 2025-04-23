@@ -18,7 +18,7 @@ const ProjectRoutes = () => {
 
 
 	
-	<BrowserRouter basename="fastfoods/fastfood" >
+	<BrowserRouter >
 		<Carousel/>
 		<Routes >				
 			<Route path="/" element={ <Home HeaderBottom={HeaderBottom}/>} index /> 
