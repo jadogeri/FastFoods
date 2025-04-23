@@ -1,6 +1,5 @@
 {
   "name": "fastfood",
-  "homepage": "http://jadogeri.github.io/FastFoods/fastfood",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
