@@ -1,16 +1,7 @@
 import React , {useEffect} from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
-const HeaderBottom = ({
-	serviceClassName,
-	serviceTo,
-	aboutClassName,
-	aboutTo,
-	locationClassName,
-	locationTo,
-	testsClassName,
-	testsTo,
-}) => {
+const HeaderBottom = () => {
   const location = useLocation();
 
   useEffect(() => {
@@ -27,12 +18,12 @@ const HeaderBottom = ({
                      <ul>
 						<nav className="cl-effect-5">
 					 <li><Link  to="/"><span data-hover="Home">home</span></Link></li>
-					 <li><Link className={serviceClassName} to={serviceTo}><span data-hover="service">service</span></Link></li>
-					 <li><Link className={aboutClassName} to={aboutTo}><span data-hover="about">about</span></Link></li>
+					 <li><Link className="scroll" to="#service"><span data-hover="service">service</span></Link></li>
+					 <li><Link className="scroll" to="#about"><span data-hover="about">about</span></Link></li>
 					 <li><Link to="/menu"><span data-hover="menus">menus</span></Link></li>
 					 <li><Link  to="/event"><span data-hover="event">event</span></Link></li>
-					 <li><Link className={testsClassName} to={testsTo}><span data-hover="Tests">tests</span></Link></li>
-					 <li><Link className={locationClassName} to={locationTo}><span data-hover="location">location</span></Link></li>
+					 <li><Link className="scroll" to="#tests"><span data-hover="Tests">tests</span></Link></li>
+					 <li><Link className="scroll" to="#location"><span data-hover="location">location</span></Link></li>
 					 </nav>
 				 </ul>
 		

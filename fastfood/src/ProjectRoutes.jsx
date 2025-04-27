@@ -11,8 +11,16 @@ import Footer from "./layouts/Footer.jsx";
 
 
 const ProjectRoutes = () => {
-
-
+	const HomeHeader
+	= () => <HeaderBottom 
+		testsClassName={"scroll"} testsTo={"#tests"} aboutClassName={"scroll"} aboutTo={"#about"}
+		locationClassName={"scroll"} locationTo={"#location"} serviceClassName={"scroll"} serviceTo={"#service"}					  
+		/>
+	const OtherHeader
+	= () =><HeaderBottom 
+		testsClassName={""} testsTo={"/"} aboutClassName={""} aboutTo={"/"}
+		locationClassName={""} locationTo={"/"} serviceClassName={""} serviceTo={"/"}					  
+		/>
 
   return (
 
@@ -21,9 +29,9 @@ const ProjectRoutes = () => {
 	<BrowserRouter >
 		<Carousel/>
 		<Routes >				
-			<Route path="/" element={ <Home HeaderBottom={HeaderBottom}/>} index /> 
-			<Route path="/menu" element={ <Menu  HeaderBottom={HeaderBottom}/>}  /> 
-			<Route path="/event" element={ <Event HeaderBottom={HeaderBottom}/>}  /> 
+			<Route path="/" element={ <Home HeaderBottom={HomeHeader}/>} index /> 
+			<Route path="/menu" element={ <Menu  HeaderBottom={OtherHeader}/>}  /> 
+			<Route path="/event" element={ <Event HeaderBottom={OtherHeader}/>}  /> 
 			<Route path="*" element={<NoPage />} />
 			
 		</Routes>
