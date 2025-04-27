@@ -27,12 +27,12 @@ const HeaderBottom = ({
                      <ul>
 						<nav className="cl-effect-5">
 					 <li><Link  to="/"><span data-hover="Home">home</span></Link></li>
-					 <li><Link className={serviceClassName} to={serviceTo}><span data-hover="service">service</span></Link></li>
-					 <li><Link className={aboutClassName} to={aboutTo}><span data-hover="about">about</span></Link></li>
+					 <li><a className={serviceClassName} href={serviceTo}><span data-hover="service">service</span></a></li>
+					 <li><a className={aboutClassName} href={aboutTo}><span data-hover="about">about</span></a></li>
 					 <li><Link to="/menu"><span data-hover="menus">menus</span></Link></li>
 					 <li><Link  to="/event"><span data-hover="event">event</span></Link></li>
-					 <li><Link className={testsClassName} to={testsTo}><span data-hover="Tests">tests</span></Link></li>
-					 <li><Link className={locationClassName} to={locationTo}><span data-hover="location">location</span></Link></li>
+					 <li><a className={testsClassName} href={testsTo}><span data-hover="Tests">tests</span></a></li>
+					 <li><a className={locationClassName} href={locationTo}><span data-hover="location">location</span></a></li>
 					 </nav>
 				 </ul>
 		
