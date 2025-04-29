@@ -1,4 +1,5 @@
 import React from 'react';
+import MenuCard from '../components/MenuCard';
 
 const Menu = ({
   HeaderBottom
@@ -20,81 +21,35 @@ const Menu = ({
             style={{ visibility: "visible", WebkitAnimationDelay: 0.4 }}
           >
             <div className="top-menu">
-              <div className="col-md-3 menu-grid">
-                <img src="assets/images/p4.jpg" className="img-responsive" alt="" />
-                <div className="menu-info">
-                  <h4>
-                    $04.<sup>99</sup>
-                  </h4>
-                  <h5>CUM SOCIIS NATOQUE .</h5>
-                </div>
-              </div>
-              <div className="col-md-3 menu-grid">
-                <img src="assets/images/p5.jpg" className="img-responsive" alt="" />
-                <div className="menu-info">
-                  <h4>
-                    $05.<sup>99</sup>
-                  </h4>
-                  <h5>Lorem ipsum dolo .</h5>
-                </div>
-              </div>
-              <div className="col-md-3 menu-grid menu1 ">
-                <img src="assets/images/p6.jpg" className="img-responsive" alt="" />
-                <div className="menu-info">
-                  <h4>
-                    $06.<sup>99</sup>
-                  </h4>
-                  <h5>CUM SOCIIS NATOQUE .</h5>
-                </div>
-              </div>
-              <div className="col-md-3 menu-grid menu1 ">
-                <img src="assets/images/p7.jpg" className="img-responsive" alt="" />
-                <div className="menu-info">
-                  <h4>
-                    $07.<sup>99</sup>
-                  </h4>
-                  <h5>Lorem ipsum dolo .</h5>
-                </div>
-              </div>
+              <MenuCard 
+                src="assets/images/p4.jpg" dollar={"$04."} cent={"99"} title={"CUM SOCIIS NATOQUE ."}
+              />
+              <MenuCard 
+                src="assets/images/p5.jpg" dollar={"$05."} cent={"99"} title={"Lorem ipsum dolo ."}
+              />
+              <MenuCard 
+                src="assets/images/p6.jpg" dollar={"$06."} cent={"99"} title={"CUM SOCIIS NATOQUE ."} className={"menu1"}
+              />
+              <MenuCard 
+                src="assets/images/p7.jpg" dollar={"$07."} cent={"99"} title={"Lorem ipsum dolo ."} className={"menu1"}
+              />
+
               <div className="clearfix" />
             </div>
             <div className="bottom-menu">
-              <div className="col-md-3 menu-grid">
-                <img src="assets/images/img1.jpg" className="img-responsive" alt="" />
-                <div className="menu-info">
-                  <h4>
-                    $04.<sup>99</sup>
-                  </h4>
-                  <h5>CUM SOCIIS NATOQUE .</h5>
-                </div>
-              </div>
-              <div className="col-md-3 menu-grid">
-                <img src="assets/images/img2.jpg" className="img-responsive" alt="" />
-                <div className="menu-info">
-                  <h4>
-                    $09.<sup>99</sup>
-                  </h4>
-                  <h5>Lorem ipsum dolo .</h5>
-                </div>
-              </div>
-              <div className="col-md-3 menu-grid menu1 ">
-                <img src="assets/images/img3.jpg" className="img-responsive" alt="" />
-                <div className="menu-info">
-                  <h4>
-                    $19.<sup>99</sup>
-                  </h4>
-                  <h5>CUM SOCIIS NATOQUE .</h5>
-                </div>
-              </div>
-              <div className="col-md-3 menu-grid menu1 ">
-                <img src="assets/images/img4.jpg" className="img-responsive" alt="" />
-                <div className="menu-info">
-                  <h4>
-                    $29.<sup>99</sup>
-                  </h4>
-                  <h5>Lorem ipsum dolo .</h5>
-                </div>
-              </div>
+              <MenuCard 
+                src="assets/images/img1.jpg" dollar={"$04."} cent={"99"} title={"CUM SOCIIS NATOQUE ."} 
+              />
+              <MenuCard 
+                src="assets/images/img2.jpg" dollar={"$09."} cent={"99"} title={"Lorem ipsum dolo ."} 
+              />
+              <MenuCard 
+                src="assets/images/img3.jpg" dollar={"$19."} cent={"99"} title={"CUM SOCIIS NATOQUE ."} className={"menu1"}
+              />
+              <MenuCard 
+                src="assets/images/img4.jpg" dollar={"$29."} cent={"99"} title={"Lorem ipsum dolo ."} className={"menu1"}
+              />
+
               <div className="clearfix" />
             </div>
             <div className="clearfix" />
@@ -102,43 +57,7 @@ const Menu = ({
         </div>
       </div>
     </div>
-    {/* <div className="footer-section">
-      <div className="container">
-        <div className="footer-top">
-          <div className="social-icons">
-            <a href="#">
-              <i className="icon4" />
-            </a>
-            <a href="#">
-              <i className="icon5" />
-            </a>
-            <a href="#">
-              <i className="icon6" />
-            </a>
-          </div>
-        </div>
-        <div className="footer-bottom">
-          <p>
-            {" "}
-            Copyright ©2015 All rights Reserved | Design by
-            <a href="http://w3layouts.com" target="target_blank">
-              W3Layouts
-            </a>
-          </p>
-        </div>
-        <a
-          className="scroll"
-          href="#head"
-          id="toTop"
-          style={{ display: "block" }}
-        >
-          {" "}
-          <span id="toTopHover" style={{ opacity: 1 }}>
-            {" "}
-          </span>
-        </a>
-      </div>
-    </div> */}
+  
   </div>
   </>
   
