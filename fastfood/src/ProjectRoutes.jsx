@@ -18,8 +18,8 @@ const ProjectRoutes = () => {
 		/>
 	const OtherHeader
 	= () =><HeaderBottom 
-		testsClassName={""} testsTo={"/"} aboutClassName={""} aboutTo={"/"}
-		locationClassName={""} locationTo={"/"} serviceClassName={""} serviceTo={"/"}					  
+		testsClassName={""} testsTo={""} aboutClassName={""} aboutTo={""}
+		locationClassName={""} locationTo={""} serviceClassName={""} serviceTo={""}					  
 		/>
 
   return (
