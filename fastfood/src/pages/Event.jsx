@@ -1,4 +1,5 @@
 import React from 'react';
+import EventCard from '../components/EventCard';
 
 const Event = ({
   HeaderBottom
@@ -21,112 +22,46 @@ const Event = ({
             data-wow-delay="0.4s"
             style={{ visibility: "visible", WebkitAnimationDelay: 0.4 }}
           >
-            <div className="event-grid1">
-              <img
-                src="assets/images/img5.jpg"
-                className="img-responsive wal"
-                alt=""
-              />
-              <div className="event-inform">
-                <div className="event-info2">
-                  <h4>October</h4>
-                  <h5>09</h5>
-                </div>
-                <div className="event-info3">
-                  <p>
-                    Mullam convallis justo a vestibulum interdum ipsum mauris
-                    lobortis urna
-                  </p>
-                </div>
-                <div className="clearfix" />
-              </div>
-            </div>
-            <div className="event-grid2">
-              <img src="assets/images/img6.jpg" className="img-responsive" alt="" />
-              <div className="event-inform">
-                <div className="event-info2">
-                  <h4>January</h4>
-                  <h5>19</h5>
-                </div>
-                <div className="event-info3">
-                  <p>
-                    Aenean ac leo eget nunc fringilla a non nulla nunc orci mi
-                    venenatis quis
-                  </p>
-                </div>
-                <div className="clearfix" />
-              </div>
-            </div>
-            <div className="event-grid3">
-              <img src="assets/images/img7.jpg" className="img-responsive " alt="" />
-              <div className="event-inform">
-                <div className="event-info2">
-                  <h4>june</h4>
-                  <h5>29</h5>
-                </div>
-                <div className="event-info3">
-                  <p>
-                    Mullam convallis justo a vestibulum interdum ipsum mauris
-                    lobortis urna
-                  </p>
-                </div>
-                <div className="clearfix" />
-              </div>
-            </div>
+            <EventCard
+              className={"event-grid1"} src="assets/images/img5.jpg"
+              month={"October"} day={"09"} description={"Mullam convallis justo a vestibulum interdum ipsum mauris lobortis urna"}
+
+            />
+            <EventCard
+              className={"event-grid2"} src="assets/images/img6.jpg"
+              month={"January"} day={"10"} description={"Aenean ac leo eget nunc fringilla a non nulla nunc orci mi venenatis quis"}
+
+            />
+            <EventCard
+              className={"event-grid3"} src="assets/images/img7.jpg"
+              month={"June"} day={"29"} description={"Mullam convallis justo a vestibulum interdum ipsum mauris  lobortis urna"}
+
+            />
+ 
           </div>
           <div
             className="col-md-6 eventright-grid  wow bounceInLeft animated"
             data-wow-delay="0.4s"
             style={{ visibility: "visible", WebkitAnimationDelay: 0.4 }}
           >
-            <div className="event-grid1">
-              <img src="assets/images/img8.jpg" className="img-responsive" alt="" />
-              <div className="event-inform">
-                <div className="event-info2">
-                  <h4>October</h4>
-                  <h5>29</h5>
-                </div>
-                <div className="event-info3">
-                  <p>
-                    Proin eu purus sapien eu accumsan dolor unc iaculis ligula
-                    eget massa{" "}
-                  </p>
-                </div>
-                <div className="clearfix" />
-              </div>
-            </div>
-            <div className="event-grid2">
-              <img src="assets/images/img9.jpg" className="img-responsive" alt="" />
-              <div className="event-inform">
-                <div className="event-info2">
-                  <h4>august</h4>
-                  <h5>19</h5>
-                </div>
-                <div className="event-info3">
-                  <p>
-                    Felis augue dignissim in tempus eget cursus sit amet sem
-                    cras vehicula
-                  </p>
-                </div>
-                <div className="clearfix" />
-              </div>
-            </div>
-            <div className="event-grid3">
-              <img src="assets/images/img10.jpg" className="img-responsive" alt="" />
-              <div className="event-inform">
-                <div className="event-info2">
-                  <h4>september</h4>
-                  <h5>09</h5>
-                </div>
-                <div className="event-info3">
-                  <p>
-                    Convallis justo a vestibulum interdum ipsum mauris lobortis
-                    urna in fringilla{" "}
-                  </p>
-                </div>
-                <div className="clearfix" />
-              </div>
-            </div>
+            <EventCard
+              className={"event-grid1"} src="assets/images/img8.jpg"
+              month={"October"} day={"29"} description={`Proin eu purus sapien eu accumsan dolor unc` +
+                `iaculis ligula eget massa${" "}`}
+
+            />
+            <EventCard
+              className={"event-grid2"} src="assets/images/img9.jpg"
+              month={"August"} day={"19"} description={"Felis augue dignissim in tempus eget cursus sit"+
+                "amet sem cras vehicula"}
+
+            />
+            <EventCard
+              className={"event-grid3"} src="assets/images/img10.jpg"
+              month={"September"} day={"09"} description={`Convallis justo a vestibulum interdum ipsum` +` mauris lobortis urna in fringilla${" "}`}
+
+            />
+
           </div>
           <div className="clearfix" />
         </div>
