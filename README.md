@@ -36,8 +36,8 @@ This mobile app takes in user inputs ,converts EU currency to US dollars
 
 ## Screenshots
 
-|![Screenshot 1](assets/images/Screenshot1.png)    |  ![Screenshot 2](assets/images/Screenshot2.png) |                 
-| ![Screenshot 3](assets/images/Screenshot3.png) | ![Screenshot 4](assets/images/Screenshot4.png)
+|![Screenshot 1](assets/images/screenshot1.png)    |  ![Screenshot 2](assets/images/screenshot2.png) |                 
+| ![Screenshot 3](assets/images/screenshot3.png) | ![Screenshot 4](assets/images/screenshot4.png)
  | 
 
 ## Installation
