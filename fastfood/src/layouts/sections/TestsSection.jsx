@@ -6,20 +6,20 @@ const TestsSection = () => {
     <div className="container">
         <h3>TESTIMONIALS</h3>
         <div className="test-grids ">
-            <div className="test-grid1 wow bounceInRight animated" data-wow-delay="0.4s" style={{visibility: "visible", WebkitAnimationDelay: 0.4}}>
+          <div className="test-grid1 wow bounceInRight animated" data-wow-delay="0.4s" style={{visibility: "visible", WebkitAnimationDelay: 0.4}}>
             <div className="col-md-5 test-left test1">
-                <img src="assets/images/p8.jpg" className="img-responsive" alt="" />
-                <div className="textbox">
+              <img src="assets/images/p8.jpg" className="img-responsive" alt="" />
+              <div className="textbox">
                 <p>Aenean nonummyen</p>
                 <h4>$ 09.<sup>95</sup></h4>
-                </div>
-                </div>
-                <div className="col-md-7 test-right">
-                <h4>"Suspendisse consequat purus</h4>
-                <p>Quisque varius, nibh ac feugiat interdum, libero massa laoreet tellus, nec congue lorem arcu a nunc. Praesent quis felis eget elit semper pharetra sollicitudin id nibh. Praesent venenatis lectus ornare, porta risus quis, commodo nulla. Nunc adipiscing ipsum lacinia diam pulvinar aliquet. Mauris sit </p>
-                </div>
-                <div className="clearfix"> </div>
-                </div>
+              </div>
+              </div>
+              <div className="col-md-7 test-right">
+              <h4>"Suspendisse consequat purus</h4>
+              <p>Quisque varius, nibh ac feugiat interdum, libero massa laoreet tellus, nec congue lorem arcu a nunc. Praesent quis felis eget elit semper pharetra sollicitudin id nibh. Praesent venenatis lectus ornare, porta risus quis, commodo nulla. Nunc adipiscing ipsum lacinia diam pulvinar aliquet. Mauris sit </p>
+              </div>
+              <div className="clearfix"> </div>
+          </div>
                 <div className="test-grid2 wow bounceInLeft animated" data-wow-delay="0.4s" style={{visibility: "visible", WebkitAnimationDelay: 0.4}}>
                <div className="col-md-7 test-left01">
                 <h4>"Cras elementum sed mi sit</h4>
