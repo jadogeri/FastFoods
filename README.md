@@ -13,6 +13,20 @@ This is a frontend Application migrating html5 bootsrap to ReactJS.
 
 - [@jadogeri](https://www.github.com/jadogeri)
 
+## Acknowledgements
+
+-  Design and template by [W3layouts](https://w3layouts.com/)
+
+## Project Template
+
+[Fast Food a Hotel Category Flat Bootstrap Responsive Web Template](https://w3layouts.com/template/fast-food-a-hotel-category-flat-bootstrap-responsive-web-template/)
+
+## Deployment
+
+Application is deployed in vercel
+
+ [https://fastfood-smoky.vercel.app ](https://fastfood-smoky.vercel.app/)
+
 ## Repository
 
 - [source code ](https://github.com/jadogeri/FastFoods/tree/main/fastfood)
@@ -57,7 +71,7 @@ This is a frontend Application migrating html5 bootsrap to ReactJS.
 
 ### **1.1 Purpose**
 
-This document outlines the system architecture, components, and design considerations for Contact Management App. The goal is to provide a template for backend developers to handle CRUD operations and authentication flow.
+This document outlines the components, and design considerations for migrating html 5 responsive bootstrap to reactjs application.
 
 ## **2. Installation**
 
@@ -79,7 +93,7 @@ This document outlines the system architecture, components, and design considera
   git clone https://github.com/jadogeri/fastfoods.git
 ```
 
-3 Enter command cd ServerTemplate then press enter.
+3 Enter command cd fastfoods/fastfood then press enter.
 
 ```bash
   cd fastfoods/fastfood
