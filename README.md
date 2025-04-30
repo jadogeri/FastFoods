@@ -81,7 +81,7 @@ This document outlines the components, and design considerations for migrating h
 
 ## **3. Usage**
 
-**Prerequisites** :installation of NodeJ.
+**Prerequisites** :installation of NodeJS.
 
 ### **3.1 Run Application**
 
