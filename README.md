@@ -1,4 +1,4 @@
-## **Server Template**
+## **FastFoods**
 
 **Version:** 1.1
 **Date:** April 29, 2025
