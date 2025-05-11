@@ -15,7 +15,7 @@ This is a frontend Application migrating html5 bootsrap to ReactJS.
 
 ## Acknowledgements
 
-- Design and template by [W3layouts](https://w3layouts.com/)
+Design and template by [W3layouts](https://w3layouts.com/)
 
 ## Project Template
 
