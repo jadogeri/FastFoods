@@ -15,7 +15,7 @@ This is a frontend Application migrating html5 bootsrap to ReactJS.
 
 ## Acknowledgements
 
--  Design and template by [W3layouts](https://w3layouts.com/)
+- Design and template by [W3layouts](https://w3layouts.com/)
 
 ## Project Template
 
@@ -23,13 +23,13 @@ This is a frontend Application migrating html5 bootsrap to ReactJS.
 
 ## Deployment
 
-Application is deployed in vercel
+Application is deployed in github pages
 
- [https://fastfood-smoky.vercel.app ](https://fastfood-smoky.vercel.app/)
+ [https://jadogeri.github.io/FastFoods](https://jadogeri.github.io/FastFoods)
 
 ## Repository
 
-- [source code ](https://github.com/jadogeri/FastFoods/tree/main/fastfood)
+[source code ](https://github.com/jadogeri/FastFoods/tree/main/fastfood)
 
 ## Screenshots
 
@@ -65,7 +65,6 @@ Application is deployed in vercel
         </li>
     <ul>
 </ul>
-
 
 ## **1. Introduction**
 
@@ -112,6 +111,7 @@ This document outlines the components, and design considerations for migrating h
 ```bash
   npm start
 ```
+
 ---
 
 ## **4. References**
