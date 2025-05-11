@@ -11,7 +11,7 @@ This is a frontend Application migrating html5 bootsrap to ReactJS.
 
 ## Authors
 
-- [@jadogeri](https://www.github.com/jadogeri)
+[@jadogeri](https://www.github.com/jadogeri)
 
 ## Acknowledgements
 
